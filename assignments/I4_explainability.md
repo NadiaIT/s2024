@@ -9,8 +9,8 @@ In this assignment you will consider how to explain a model and its decisions to
 Learning goals:
 
 * Understand and distinguish the different notions of transparency, interpretability, and explainability
-* Use state-of-the-art tools for model explainability to generate model and individual explanations
 * Interpret regulation and provide evidence to demonstrate compliance. Reflect on the difficulty of working with provided policies.
+* Use state-of-the-art tools for model explainability to generate model and individual explanations
 
 ## Research in this Course
 
@@ -26,17 +26,16 @@ The task is to generate two forms of transparency mechanisms/explanations, discu
 
 **Policy understanding:** Read the policy and identify what the company wants to achieve with the internal policy. This should guide the following two steps.
 
+**Policy compliance:** Design your solution, and discuss whether your solution complies with the provided policy (note that compliance is not necessary to receive full credit for this assignment). Where possible provide evidence for compliance -- what you consider as evidence is for you to decide. If you think that your solution does not comply, explain why and either (a) outline what additional work you could do to comply or (b) explain why compliance is not possible. 
+
 **Global explanations about the model or data:** Consider what external stakeholders might want to know about the product, the model, or the data (transparency). Create a HTML site that includes information about the data or model in a form that the company producing the product may disclose for transparency. This might include information about the data, about accuracy, about important features, or about fairness. We recommend but do not require automating the creation of this site.
 
 **Individual explanations for predictions:** Identify what users or stakeholders would benefit from explanations about individual predictions and select one of them. Write code that produces an explanation for a specific prediction. Your code (e.g., a command line program or notebook) should receive the inputs for model inference and generate a prediction and corresponding explanation for a relevant stakeholder. The explanation should be presented as an HTML site -- ideally your code automatically generates HTML sites for any input (see scaffolding in the provided notebook), but you can also create the sites for two examples manually with the output of explainability tools.
-
-**Policy compliance:** Discuss whether your solution complies with the provided policy (note that compliance is not necessary to receive full credit for this assignment). Where possible provide evidence for compliance -- what you consider as evidence is for you to decide. If you think that your solution does not comply, explain why and either (a) outline what additional work you could do to comply or (b) explain why compliance is not possible. 
 
 **Reflection:** In two separate section reflect on your experience:
 
 1. *Challenges:* What was challenging in interpreting, complying, or providing evidence for the policy, if any?
 2. *Policy benefit:* Would you expect that the enforcement of the policy for this application will have a positive impact, and how and for whom?
-
 
 
 ### Hints and guidance
@@ -63,9 +62,9 @@ Submit a report as a single PDF file to Gradescope that covers the following top
 
 1. **GitHub link:** Start the document with a link to your last commit on GitHub in the format https://github.com/cmu-seai/[repo]/commit/[commitid]. Make sure that the link includes the long ID of the last commit.
 2. **Stakeholders** (0.5 pages max): List at least 10 stakeholders for the product.
-3. **Global explanations** (1 page max): Provide a link to the HTML file in your GitHub repository containing your global explanation. Briefly describe what kind of explanations you included and why. Identify which explanations are relevant for which stakeholder.
-4. **Individual explanations** (1 page max): Provide instructions for how to use your code to generate explanations for specific inputs. Provide links to two HTML files in your GitHub repository that you have generated for example inputs. Clearly identify which stakeholder(s) your explanation is intended for. Describe how you explain the predictions and why you chose that form of explanation for this stakeholder.
-5. **Policy compliance** (open ended): Discuss whether your global and individual explanations if they were integrated into the product comply with the provided policy. Provide evidence for compliance where possible either directly in this submission or as links to external artifacts in your GitHub repository.
+3. **Policy compliance** (open ended): Discuss whether your global and individual explanations if they were integrated into the product comply with the provided policy. Provide evidence for compliance where possible either directly in this submission or as links to external artifacts in your GitHub repository.
+4. **Global explanations** (1 page max): Provide a link to the HTML file in your GitHub repository containing your global explanation. Briefly describe what kind of explanations you included and why. Identify which explanations are relevant for which stakeholder.
+5. **Individual explanations** (1 page max): Provide instructions for how to use your code to generate explanations for specific inputs. Provide links to two HTML files in your GitHub repository that you have generated for example inputs. Clearly identify which stakeholder(s) your explanation is intended for. Describe how you explain the predictions and why you chose that form of explanation for this stakeholder.
 6. **Reflection** (2 page max): Include textual answers to the two reflection prompts (challenges, policy benefits) above in two clearly separated subsections. 
 
 
@@ -76,11 +75,10 @@ Page limits are recommendations and not strictly enforced. You can exceed the pa
 The assignment is worth 100 points. For full credit, we expect:
 
 * [ ] 10 points: The document includes a link to a specific commit in your GitHub repository created with GitHub classroom. A list of at least 10 stakeholders is provided. All stakeholders are relevant to the product.
+* [ ] 10 points: A discussion of policy compliance that makes a good faith attempt at providing evidence to demonstrate compliance or discusses additional steps needed for compliance or why compliance may not be possible.
 * [ ] 20 points: A description of the *global explanations* is provided; the description explains for which stakeholders each part of the explanation is relevant; a justification for the chosen explanation is included.
 * [ ] 10 points: An HTML page that provides the described global explanations for the specific model or data is linked.
 * [ ] 10 points: A stakeholder is indicated for whom the *individual explanations* are intended. A description of the provided individual explanations and a plausible justification why this form of explanation is appropriate for the stakeholder identified. 
 * [ ] 20 points: A functional implementation to automatically or semi-automatically create explanations for individual predictions is provided. It aligns with the description.
 * [ ] 10 points: Two examples of individual explanations in HTML files are linked. The examples align with the description.
-* [ ] 10 points: A discussion of policy compliance that makes a good faith attempt at providing evidence to demonstrate compliance or discusses additional steps needed for compliance or why compliance may not be possible.
 * [ ] 10 points: A good-faith attempt at reflecting in two clearly identifiable subsections about (a) the challenges of interpreting, complying, or providing evidence for the policy and (b) the benefits of the enforcement of the policy.
-
